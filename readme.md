@@ -2,6 +2,64 @@
 
 El contenido se enfoca en los **prerrequisitos esenciales** para abordar, en futuras sesiones, temas más avanzados como **Redes Neurales de Aprendizaje Profundo (DNN)** y **Visión Computacional**. La capacitación se estructura en dos componentes clave para asegurar un aprendizaje integral: **teoría y práctica.**
 
+## 🚀 Inicio Rápido
+
+### Requisitos Previos
+
+- Python 3.8 o superior
+- pip (gestor de paquetes de Python)
+
+### Configuración del Entorno
+
+#### Opción 1: Script Automatizado (Recomendado)
+
+```bash
+# Ejecutar el script de configuración
+./setup.sh
+```
+
+#### Opción 2: Configuración Manual
+
+```bash
+# Crear entorno virtual
+python3 -m venv venv
+
+# Activar entorno virtual
+source venv/bin/activate  # En macOS/Linux
+# o
+venv\Scripts\activate  # En Windows
+
+# Instalar dependencias
+pip install -r requirements.txt
+```
+
+### Ejecutar los Notebooks
+
+```bash
+# Activar el entorno virtual (si no está activado)
+source venv/bin/activate
+
+# Iniciar Jupyter Notebook
+jupyter notebook
+
+# O iniciar Jupyter Lab
+jupyter lab
+```
+
+## 📚 Materiales del Curso
+
+- **ml-pca-apps.ipynb**: Notebook con aplicaciones prácticas de PCA en Ingeniería Electrónica
+- **contenido.pdf**: Material teórico del curso
+- **ml-pca.pdf**: Documento de referencia sobre PCA
+
+## 🔧 Dependencias Principales
+
+- NumPy: Cálculo numérico
+- Pandas: Manipulación de datos
+- Matplotlib: Visualización
+- Scikit-learn: Machine Learning
+- Jupyter: Entorno interactivo
+
 ## Contenido
 
 A continuación, se presenta la lista de temas propuestos y el número de horas asignadas para el desarrollo del curso, conforme a las conversaciones previas.
