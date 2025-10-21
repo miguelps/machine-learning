@@ -64,16 +64,16 @@ jupyter lab
 
 A continuación, se presenta la lista de temas propuestos y el número de horas asignadas para el desarrollo del curso, conforme a las conversaciones previas.
 
-| Aula  | Tema                                                                                        |
-| :---: | :-------------------------------------------------------------------------------------------|
-|   1   | Python. Análisis de Componentes Principales.                                                |
-|   2   | Python. Regresión y selección de modelos.                                                   |
-|   3   | Aprendizaje no supervisado: Agrupamiento *k-means*, Agrupamiento jerárquico *dendrograma.*  |
-|   4   | Aprendizaje supervisado: Discriminantes lineales, Máquinas de Vectores de Soporte.          |
-|   5   | Árboles de Clasificación y Bosques Aleatorios                                               |
-|   6   | Redes neuronales artificiales                                                               |
-|   7   | Aprendizaje profundo. Capas convolucionales y capas recurrentes                             |
-|   8   | *Transformers*                                                                              |
+| Aula  | Tema                                                            |
+| :---: | :-------------------------------------------------------------- |
+|   1   | Python. Análisis de Componentes Principales.                    |
+|   2   | Python. Regresión y selección de modelos.                       |
+|   3   | Aprendizaje no supervisado: Agrupamiento *k-means*              |
+|   4   | Aprendizaje supervisado                                         |
+|   5   | Árboles de Clasificación y Bosques Aleatorios                   |
+|   6   | Redes neuronales artificiales                                   |
+|   7   | Aprendizaje profundo. Capas convolucionales y capas recurrentes |
+|   8   | _Transformers_                                                  |
 
 ---
 
@@ -92,7 +92,6 @@ El **aprendizaje automático** se centra en la optimización. Herramientas de **
 El objetivo es agrupar datos sin etiquetas.
 
 * **Agrupamiento K-Means**: Particiona un conjunto de *m* observaciones vectoriales en *k* grupos. El número de particiones (*k*) generalmente es desconocido y debe determinarse.
-* **Agrupamiento Jerárquico (Dendrograma)**: Esta técnica agrupa datos según su similitud, creando una jerarquía en forma de árbol. Comienza con cada observación como un grupo separado y las fusiona progresivamente.
 
 \newpage
 
