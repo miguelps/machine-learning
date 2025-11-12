@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="720"
+   height="580"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="arbol.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs31" />
+  <sodipodi:namedview
+     id="namedview31"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3383333"
+     inkscape:cx="399.75094"
+     inkscape:cy="302.2416"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <line
+     x1="485.25516"
+     y1="207.80573"
+     x2="458.36224"
+     y2="370.19162"
+     stroke="#333333"
+     stroke-width="2.7213"
+     id="line7"
+     style="stroke:#333333;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <!-- Conexiones (líneas) -->
+  <!-- Desde raíz A a B (Sí) -->
+  <line
+     x1="335.72256"
+     y1="49.511814"
+     x2="186.96767"
+     y2="210.30865"
+     stroke="#333333"
+     stroke-width="2.32047"
+     id="line1"
+     style="stroke-width:2;stroke-dasharray:none" />
+  <text
+     x="298.99377"
+     y="104.29764"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text1">Sí</text>
+  <!-- Desde raíz A a C (No) -->
+  <line
+     x1="332.46661"
+     y1="52.222839"
+     x2="487.52097"
+     y2="209.39944"
+     stroke="#333333"
+     stroke-width="2.35532"
+     id="line2"
+     style="stroke-width:2;stroke-dasharray:none" />
+  <text
+     x="388.99377"
+     y="104.29764"
+     fill="#c62828"
+     font-size="12px"
+     font-weight="bold"
+     id="text2">No</text>
+  <!-- Desde B a D (Sí) -->
+  <line
+     x1="186.73024"
+     y1="211.18848"
+     x2="94.353546"
+     y2="370.43384"
+     stroke="#333333"
+     stroke-width="2.33036"
+     id="line3"
+     style="stroke:#333333;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <!-- Desde B a E (No) -->
+  <line
+     x1="183.25488"
+     y1="208.48755"
+     x2="272.51523"
+     y2="371.48663"
+     stroke="#333333"
+     stroke-width="2.37038"
+     id="line4"
+     style="stroke:#333333;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     x="223.99379"
+     y="424.29764"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text5">Sí</text>
+  <text
+     x="303.99377"
+     y="424.29764"
+     fill="#c62828"
+     font-size="12px"
+     font-weight="bold"
+     id="text6">No</text>
+  <!-- Desde E a F (Sí) -->
+  <line
+     x1="270.58163"
+     y1="374.82709"
+     x2="183.53751"
+     y2="531.58575"
+     stroke="#333333"
+     stroke-width="2.30947"
+     id="line5"
+     style="stroke:#333333;stroke-width:2.11005;stroke-dasharray:none;stroke-opacity:1" />
+  <!-- Desde E a G (No) -->
+  <line
+     x1="271.04803"
+     y1="371.2438"
+     x2="361.61871"
+     y2="533.82837"
+     stroke="#333333"
+     stroke-width="2.43692"
+     id="line6"
+     style="stroke:#333333;stroke-width:2.09115;stroke-dasharray:none;stroke-opacity:1" />
+  <!-- Desde C a H (Sí) -->
+  <!-- Desde C a I (No) -->
+  <line
+     x1="486.32803"
+     y1="208.20312"
+     x2="627.65045"
+     y2="372.03583"
+     stroke="#333333"
+     stroke-width="2.7213"
+     id="line8"
+     style="stroke:#333333;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <!-- Nodos -->
+  <!-- Nodo Raíz A -->
+  <rect
+     x="254.99379"
+     y="9.2976332"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#e1f5ff"
+     stroke="#01579b"
+     stroke-width="3"
+     id="rect8" />
+  <text
+     x="334.99377"
+     y="34.29763"
+     text-anchor="middle"
+     fill="#01579b"
+     font-size="14px"
+     font-weight="bold"
+     id="text9">Nodo Raíz</text>
+  <text
+     x="334.99377"
+     y="54.29763"
+     text-anchor="middle"
+     fill="#01579b"
+     font-size="11px"
+     id="text10">¿Temperatura ≤ 50°C?</text>
+  <!-- Nodo Interno B -->
+  <rect
+     x="104.99377"
+     y="169.29762"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#fff3e0"
+     stroke="#e65100"
+     stroke-width="2"
+     id="rect10" />
+  <text
+     x="184.99377"
+     y="194.29762"
+     text-anchor="middle"
+     fill="#e65100"
+     font-size="12px"
+     font-weight="bold"
+     id="text11">Nodo Interno</text>
+  <text
+     x="184.99377"
+     y="214.29762"
+     text-anchor="middle"
+     fill="#e65100"
+     font-size="11px"
+     id="text12">¿Voltaje ≤ 5.2V?</text>
+  <!-- Nodo Interno C -->
+  <rect
+     x="404.99377"
+     y="169.29762"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#fff3e0"
+     stroke="#e65100"
+     stroke-width="2"
+     id="rect12" />
+  <text
+     x="484.99377"
+     y="194.29762"
+     text-anchor="middle"
+     fill="#e65100"
+     font-size="12px"
+     font-weight="bold"
+     id="text13">Nodo Interno</text>
+  <text
+     x="484.99377"
+     y="214.29762"
+     text-anchor="middle"
+     fill="#e65100"
+     font-size="11px"
+     id="text14">¿Corriente ≤ 120mA?</text>
+  <!-- Nodo Hoja D (Funcional) -->
+  <rect
+     x="14.99377"
+     y="329.29764"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#c8e6c9"
+     stroke="#2e7d32"
+     stroke-width="2"
+     id="rect14" />
+  <text
+     x="94.993774"
+     y="354.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text15">Nodo Hoja</text>
+  <text
+     x="94.993774"
+     y="374.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="11px"
+     id="text16">Clase: FUNCIONAL</text>
+  <text
+     x="94.993774"
+     y="394.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="10px"
+     id="text17">(95% confianza)</text>
+  <!-- Nodo Interno E -->
+  <rect
+     x="188.99377"
+     y="329.29764"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#fff3e0"
+     stroke="#e65100"
+     stroke-width="2"
+     id="rect17" />
+  <text
+     x="268.99377"
+     y="354.29764"
+     text-anchor="middle"
+     fill="#e65100"
+     font-size="12px"
+     font-weight="bold"
+     id="text18">Nodo Interno</text>
+  <text
+     x="268.99377"
+     y="374.29764"
+     text-anchor="middle"
+     fill="#e65100"
+     font-size="11px"
+     id="text19">¿Corriente ≤ 110mA?</text>
+  <!-- Nodo Hoja F (Degradado) -->
+  <rect
+     x="102.99377"
+     y="489.29764"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#c8e6c9"
+     stroke="#2e7d32"
+     stroke-width="2"
+     id="rect19" />
+  <text
+     x="182.99377"
+     y="514.29761"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text20">Nodo Hoja</text>
+  <text
+     x="182.99377"
+     y="534.29761"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="11px"
+     id="text21">Clase: DEGRADADO</text>
+  <text
+     x="182.99377"
+     y="554.29761"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="10px"
+     id="text22">(78% confianza)</text>
+  <!-- Nodo Hoja G (Falla) -->
+  <rect
+     x="276.99377"
+     y="489.29764"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#c8e6c9"
+     stroke="#2e7d32"
+     stroke-width="2"
+     id="rect22" />
+  <text
+     x="356.99377"
+     y="514.29761"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text23">Nodo Hoja</text>
+  <text
+     x="356.99377"
+     y="534.29761"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="11px"
+     id="text24">Clase: FALLA</text>
+  <text
+     x="356.99377"
+     y="554.29761"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="10px"
+     id="text25">(82% confianza)</text>
+  <!-- Nodo Hoja H (Degradado) -->
+  <rect
+     x="374.99377"
+     y="329.29764"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#c8e6c9"
+     stroke="#2e7d32"
+     stroke-width="2"
+     id="rect25" />
+  <text
+     x="454.99377"
+     y="354.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text26">Nodo Hoja</text>
+  <text
+     x="454.99377"
+     y="374.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="11px"
+     id="text27">Clase: DEGRADADO</text>
+  <text
+     x="454.99377"
+     y="394.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="10px"
+     id="text28">(85% confianza)</text>
+  <!-- Nodo Hoja I (Falla) -->
+  <rect
+     x="546.99371"
+     y="329.29764"
+     width="160"
+     height="80"
+     rx="5"
+     fill="#c8e6c9"
+     stroke="#2e7d32"
+     stroke-width="2"
+     id="rect28" />
+  <text
+     x="626.99371"
+     y="354.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text29">Nodo Hoja</text>
+  <text
+     x="626.99371"
+     y="374.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="11px"
+     id="text30">Clase: FALLA</text>
+  <text
+     x="626.99371"
+     y="394.29764"
+     text-anchor="middle"
+     fill="#2e7d32"
+     font-size="10px"
+     id="text31">(92% confianza)</text>
+  <text
+     x="136.99377"
+     y="265.29764"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text3">Sí</text>
+  <text
+     x="186.99377"
+     y="265.29764"
+     fill="#c62828"
+     font-size="12px"
+     font-weight="bold"
+     id="text4">No</text>
+  <text
+     x="457.99377"
+     y="265.29764"
+     fill="#2e7d32"
+     font-size="12px"
+     font-weight="bold"
+     id="text7">Sí</text>
+  <text
+     x="505.99374"
+     y="265.29764"
+     fill="#c62828"
+     font-size="12px"
+     font-weight="bold"
+     id="text8">No</text>
+</svg>
